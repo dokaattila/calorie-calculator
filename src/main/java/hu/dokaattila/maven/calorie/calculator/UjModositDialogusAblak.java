@@ -24,7 +24,7 @@ public class UjModositDialogusAblak extends javax.swing.JDialog {
      * @param parent
      * @param modal
      * @param optMeal
-     * @throws kaloriaszamlalo.KaloriaDAOException
+     * @throws KaloriaDAOException
      * @throws java.sql.SQLException
      */
     public UjModositDialogusAblak(java.awt.Frame parent, boolean modal, Optional<Meal> optMeal) throws KaloriaDAOException, SQLException {

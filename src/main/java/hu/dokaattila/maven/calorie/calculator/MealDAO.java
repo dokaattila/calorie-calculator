@@ -14,7 +14,7 @@ import java.util.List;
  * @author dokaa
  * @param <T>
  */
-public abstract class MealDAO<T> implements DAO {
+public abstract class MealDAO<T> implements DAO <T> {
     
     public abstract void insertMeal(Meal m) throws KaloriaDAOException, SQLException;
 

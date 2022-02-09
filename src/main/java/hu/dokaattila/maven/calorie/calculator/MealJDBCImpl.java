@@ -18,7 +18,7 @@ import java.util.List;
  * @author dokaa
  * @param <T>
  */
-public class MealJDBCImpl<T> extends MealDAO {
+public class MealJDBCImpl<T> extends MealDAO <T> {
 
     private Connection conn;
     private PreparedStatement findAll;
