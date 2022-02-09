@@ -27,7 +27,7 @@ public class KaloriaSzamlaloFoablak extends javax.swing.JFrame {
     /**
      * Creates new form KaloriaSzamlaloFoablak
      *
-     * @throws kaloriaszamlalo.KaloriaDAOException
+     * @throws KaloriaDAOException
      * @throws java.sql.SQLException
      */
     public KaloriaSzamlaloFoablak() throws KaloriaDAOException, SQLException {

@@ -67,7 +67,7 @@ public class FoodJDBCImpl<T> extends FoodDAO {
     public void close() throws KaloriaDAOException {
         try {
             this.findAll.close();
-        } catch (SQLException ex) {
+        } catch (SQLException ignored) {
 
         }
 

@@ -106,7 +106,7 @@ public class Controller {
         MealJDBCImpl db = new MealJDBCImpl(getConnection());
         UjModositDialogusAblak dialog = new UjModositDialogusAblak(new java.awt.Frame(), true, optMeal);
         dialog.setVisible(true);
-        if (dialog.getMeal(id) != null) {
+        if (dialog.getMeal(id).isPresent()) {
             Optional<Meal> uj = dialog.getMeal(id);
             Meal newMeal = uj.get();
             db.save(newMeal);

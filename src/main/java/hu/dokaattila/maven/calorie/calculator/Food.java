@@ -58,9 +58,6 @@ public class Food {
         this.foodProtein = foodProtein;
     }
 
-    public double getFoodcalories() {
-        return foodcalories;
-    }
 
     public void setFoodcalories(double foodcalories) {
         this.foodcalories = foodcalories;

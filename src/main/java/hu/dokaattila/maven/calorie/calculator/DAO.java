@@ -14,10 +14,10 @@ import java.util.List;
  */
 public interface DAO <T>{
     
-    public List<T> findAll() throws KaloriaDAOException;
-    public List<T> findById() throws KaloriaDAOException;
-    public List<T> findByName() throws KaloriaDAOException;
-    public void close() throws KaloriaDAOException;
+    List<T> findAll() throws KaloriaDAOException;
+    List<T> findById() throws KaloriaDAOException;
+    List<T> findByName() throws KaloriaDAOException;
+     void close() throws KaloriaDAOException;
    
     
 }

@@ -18,12 +18,12 @@ public class KaloriaDAOException extends Exception{
         super(string);
     }
 
-    public KaloriaDAOException(String string, Throwable thrwbl) {
-        super(string, thrwbl);
+    public KaloriaDAOException(String string, Throwable throwable) {
+        super(string, throwable);
     }
 
-    public KaloriaDAOException(Throwable thrwbl) {
-        super(thrwbl);
+    public KaloriaDAOException(Throwable throwable) {
+        super(throwable);
     }
     
     
