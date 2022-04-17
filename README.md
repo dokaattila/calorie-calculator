@@ -23,6 +23,3 @@ Project is: _complete_
 To do:
 - Installing guide.
 
-## Acknowledgements
-- This project is a further thought version of the original application, which uses Java Swing.
-
